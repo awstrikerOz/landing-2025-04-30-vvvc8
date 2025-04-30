@@ -1,31 +1,51 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing | Creative Experience</title>
     <meta name="description" content="Experience the future of digital innovation">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </head>
 <body class="bg-gray-900 text-gray-100">
-    <header class="fixed w-full z-50 bg-gray-900/95 backdrop-blur-sm border-b border-gray-800" x-data="{ isOpen: false }">
+    <header class="fixed w-full z-50 bg-gray-900/95 backdrop-blur-sm border-b border-gray-800">
         <nav class="container mx-auto px-6 py-4">
             <div class="flex items-center justify-between">
-                <a href="#" class="text-2xl font-bold text-purple-500">landing</a>
-                <button @click="isOpen = !isOpen" class="md:hidden focus:outline-none">
-                    <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24">
-                        <path x-show="!isOpen" d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path>
-                        <path x-show="isOpen" d="M6 18L18 6M6 6l12 12"></path>
-                    </svg>
+                <a href="https://awstrikerOz.github.io/landing-2025-04-30-vvvc8" class="text-2xl font-bold text-purple-500 hover:text-purple-400 transition-colors duration-300">landing</a>
+                
+                <button class="mobile-menu-button md:hidden focus:outline-none" aria-label="Toggle menu">
+                    <i class="fas fa-bars text-2xl"></i>
                 </button>
+
                 <div class="hidden md:flex items-center space-x-8">
                     <a href="#features" class="hover:text-purple-400 transition-colors duration-300">Features</a>
                     <a href="#benefits" class="hover:text-purple-400 transition-colors duration-300">Benefits</a>
                     <a href="#video" class="hover:text-purple-400 transition-colors duration-300">Watch</a>
+                    <a href="#testimonials" class="hover:text-purple-400 transition-colors duration-300">Testimonials</a>
+                    <a href="#about" class="hover:text-purple-400 transition-colors duration-300">About</a>
                     <a href="#faq" class="hover:text-purple-400 transition-colors duration-300">FAQ</a>
-                    <a href="https://awstrikeroz.github.io/lorem-ipsum-dolor-2025-04-30-4xocv/" class="px-6 py-2 bg-purple-600 hover:bg-purple-700 rounded-full transition-colors duration-300">Get Started</a>
+                    <a href="https://awstrikeroz.github.io/lorem-ipsum-dolor-2025-04-30-4xocv/" class="px-6 py-2 bg-purple-600 hover:bg-purple-700 rounded-full transition-all duration-300 transform hover:scale-105">Get Started</a>
                 </div>
+            </div>
+
+            <div class="mobile-menu hidden md:hidden mt-4 bg-gray-800 rounded-lg p-4">
+                <a href="#features" class="block py-2 hover:text-purple-400 transition-colors duration-300">Features</a>
+                <a href="#benefits" class="block py-2 hover:text-purple-400 transition-colors duration-300">Benefits</a>
+                <a href="#video" class="block py-2 hover:text-purple-400 transition-colors duration-300">Watch</a>
+                <a href="#testimonials" class="block py-2 hover:text-purple-400 transition-colors duration-300">Testimonials</a>
+                <a href="#about" class="block py-2 hover:text-purple-400 transition-colors duration-300">About</a>
+                <a href="#faq" class="block py-2 hover:text-purple-400 transition-colors duration-300">FAQ</a>
+                <a href="https://awstrikeroz.github.io/lorem-ipsum-dolor-2025-04-30-4xocv/" class="block py-2 text-purple-400 hover:text-purple-300">Get Started</a>
             </div>
         </nav>
     </header>
@@ -33,27 +53,27 @@
     <main>
         <section class="relative min-h-screen flex items-center justify-center overflow-hidden">
             <div class="absolute inset-0 z-0">
+                <div class="absolute inset-0 bg-gradient-to-br from-purple-900/90 to-gray-900/90"></div>
                 <img src="https://source.unsplash.com/random/1920x1080?technology" alt="Hero Background" class="w-full h-full object-cover opacity-25">
-                <div class="absolute inset-0 bg-gray-900/75"></div>
             </div>
             <div class="container mx-auto px-6 relative z-10 text-center">
-                <h1 class="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-purple-400 to-pink-500 bg-clip-text text-transparent">landing</h1>
-                <p class="text-xl md:text-2xl mb-12 text-gray-300 max-w-3xl mx-auto">gogogo</p>
-                <a href="https://awstrikeroz.github.io/lorem-ipsum-dolor-2025-04-30-4xocv/" class="inline-block px-8 py-4 bg-purple-600 hover:bg-purple-700 rounded-full text-lg font-semibold transition-all duration-300 transform hover:scale-105">Get Started Now</a>
+                <h1 class="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-purple-400 to-pink-500 bg-clip-text text-transparent">Transform Your Digital Experience</h1>
+                <p class="text-xl md:text-2xl mb-12 text-gray-300 max-w-3xl mx-auto">Unlock the future of digital innovation with our cutting-edge platform. Experience seamless integration, lightning-fast performance, and unlimited possibilities.</p>
+                <a href="https://awstrikeroz.github.io/lorem-ipsum-dolor-2025-04-30-4xocv/" class="inline-block px-8 py-4 bg-purple-600 hover:bg-purple-700 rounded-full text-lg font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-lg">Start Your Journey Now</a>
             </div>
         </section>
 
         <section id="features" class="py-24 bg-gray-800">
             <div class="container mx-auto px-6">
-                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Features</h2>
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Powerful Features</h2>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                     <div class="p-8 bg-gray-700 rounded-2xl hover:shadow-xl transition-all duration-300 transform hover:scale-105">
-                        <h3 class="text-2xl font-semibold mb-4">More</h3>
-                        <p class="text-gray-300">Expand your possibilities with enhanced features and capabilities.</p>
+                        <h3 class="text-2xl font-semibold mb-4">Advanced Analytics</h3>
+                        <p class="text-gray-300">Gain deep insights with our comprehensive analytics suite. Track performance metrics, user behavior, and engagement in real-time with intuitive dashboards and customizable reports.</p>
                     </div>
                     <div class="p-8 bg-gray-700 rounded-2xl hover:shadow-xl transition-all duration-300 transform hover:scale-105">
-                        <h3 class="text-2xl font-semibold mb-4">viddd</h3>
-                        <p class="text-gray-300">Experience seamless video integration and streaming capabilities.</p>
+                        <h3 class="text-2xl font-semibold mb-4">Seamless Integration</h3>
+                        <p class="text-gray-300">Connect and streamline your workflow with our robust integration capabilities. Support for major platforms and APIs ensures smooth operation across your entire tech stack.</p>
                     </div>
                 </div>
             </div>
@@ -61,91 +81,184 @@
 
         <section id="video" class="py-24 bg-gray-900">
             <div class="container mx-auto px-6">
-                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Watch How It Works</h2>
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">See It In Action</h2>
                 <div class="relative w-full max-w-4xl mx-auto rounded-2xl overflow-hidden shadow-2xl">
                     <div class="relative pb-[56.25%]">
                         <iframe class="absolute inset-0 w-full h-full" src="https://awstrikeroz.github.io/lorem-ipsum-dolor-2025-04-30-4xocv/" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
+                <p class="text-center mt-8 text-lg text-gray-400">Discover how our platform revolutionizes digital workflows and enhances productivity</p>
             </div>
         </section>
 
         <section id="benefits" class="py-24 bg-gray-800">
             <div class="container mx-auto px-6">
-                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Benefits</h2>
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Key Benefits</h2>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                    <div class="p-8 bg-gray-700 rounded-2xl">
-                        <h3 class="text-2xl font-semibold mb-4">Fast</h3>
-                        <p class="text-gray-300">Lightning-quick performance for seamless operation.</p>
+                    <div class="p-8 bg-gray-700 rounded-2xl hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+                        <h3 class="text-2xl font-semibold mb-4">Lightning Performance</h3>
+                        <p class="text-gray-300">Experience blazing-fast load times and responsive interactions. Our optimized infrastructure ensures sub-second response times and 99.9% uptime reliability.</p>
                     </div>
-                    <div class="p-8 bg-gray-700 rounded-2xl">
-                        <h3 class="text-2xl font-semibold mb-4">More space</h3>
-                        <p class="text-gray-300">Expanded storage capacity for all your needs.</p>
+                    <div class="p-8 bg-gray-700 rounded-2xl hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+                        <h3 class="text-2xl font-semibold mb-4">Unlimited Storage</h3>
+                        <p class="text-gray-300">Never worry about space constraints again. Our scalable storage solution grows with your needs, featuring automatic backups and enterprise-grade security.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="faq" class="py-24 bg-gray-900">
+        <section id="testimonials" class="py-24 bg-gray-900">
             <div class="container mx-auto px-6">
-                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Frequently Asked Questions</h2>
-                <div class="max-w-3xl mx-auto space-y-6">
-                    <div class="p-6 bg-gray-800 rounded-xl">
-                        <h3 class="text-xl font-semibold mb-4">What features are included?</h3>
-                        <p class="text-gray-300">Our platform includes comprehensive features designed to enhance your experience.</p>
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">What Our Clients Say</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+                    <div class="p-8 bg-gray-800 rounded-xl hover:shadow-xl transition-all duration-300">
+                        <div class="flex items-center mb-4">
+                            <div class="text-yellow-400 flex">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <p class="text-gray-300 mb-6">"The platform has transformed our workflow completely. We've seen a 40% increase in productivity since implementation. The analytics features are particularly impressive."</p>
+                        <div>
+                            <p class="font-semibold">Sarah Johnson</p>
+                            <p class="text-sm text-gray-400">CTO, TechCorp</p>
+                        </div>
                     </div>
-                    <div class="p-6 bg-gray-800 rounded-xl">
-                        <h3 class="text-xl font-semibold mb-4">How fast is the service?</h3>
-                        <p class="text-gray-300">Our service is optimized for maximum speed and efficiency.</p>
+                    <div class="p-8 bg-gray-800 rounded-xl hover:shadow-xl transition-all duration-300">
+                        <div class="flex items-center mb-4">
+                            <div class="text-yellow-400 flex">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <p class="text-gray-300 mb-6">"Integration was seamless and the support team was exceptional. We're saving countless hours on project management and seeing real results in our efficiency metrics."</p>
+                        <div>
+                            <p class="font-semibold">Michael Chen</p>
+                            <p class="text-sm text-gray-400">Operations Director, InnovateX</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <section class="py-24 bg-gradient-to-r from-purple-900 to-gray-900">
-            <div class="container mx-auto px-6 text-center">
-                <h2 class="text-3xl md:text-4xl font-bold mb-8">Ready to Get Started?</h2>
-                <a href="https://awstrikeroz.github.io/lorem-ipsum-dolor-2025-04-30-4xocv/" class="inline-block px-8 py-4 bg-purple-600 hover:bg-purple-700 rounded-full text-lg font-semibold transition-all duration-300 transform hover:scale-105">Join Now</a>
-            </div>
-        </section>
-    </main>
-
-    <footer class="bg-gray-800 py-12">
-        <div class="container mx-auto px-6">
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
-                <div>
-                    <h3 class="text-xl font-bold mb-4">Contact</h3>
-                    <p class="text-gray-400">Email: 1@1.com</p>
-                </div>
-                <div>
-                    <h3 class="text-xl font-bold mb-4">Links</h3>
-                    <ul class="space-y-2">
-                        <li><a href="#" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Home</a></li>
-                        <li><a href="#features" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Features</a></li>
-                        <li><a href="#benefits" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Benefits</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h3 class="text-xl font-bold mb-4">Legal</h3>
-                    <ul class="space-y-2">
-                        <li><a href="#" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Privacy Policy</a></li>
-                        <li><a href="#" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Terms of Service</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h3 class="text-xl font-bold mb-4">Follow Us</h3>
-                    <div class="flex space-x-4">
-                        <a href="#" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">
-                            <span class="sr-only">Twitter</span>
-                            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24"><path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"></path></svg>
-                        </a>
+            <section id="about" class="py-24 bg-gray-800">
+                <div class="container mx-auto px-6">
+                    <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">About Us</h2>
+                    <div class="max-w-3xl mx-auto text-center">
+                        <p class="text-gray-300 leading-relaxed">Founded in 2020, we've been at the forefront of digital innovation, driven by our passion for creating transformative solutions. Our team of dedicated experts combines cutting-edge technology with user-centric design to deliver exceptional experiences that help businesses thrive in the digital age. We believe in continuous innovation, sustainable growth, and building lasting partnerships with our clients.</p>
                     </div>
                 </div>
+            </section>
+
+            <section id="faq" class="py-24 bg-gray-900">
+                <div class="container mx-auto px-6">
+                    <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Frequently Asked Questions</h2>
+                    <div class="max-w-3xl mx-auto space-y-6">
+                        <div class="p-6 bg-gray-800 rounded-xl hover:shadow-xl transition-all duration-300">
+                            <h3 class="text-xl font-semibold mb-4">How secure is your platform?</h3>
+                            <p class="text-gray-300">We implement enterprise-grade security measures including end-to-end encryption, regular security audits, and compliance with industry standards. Your data is protected by multiple layers of security and backed up continuously.</p>
+                        </div>
+                        <div class="p-6 bg-gray-800 rounded-xl hover:shadow-xl transition-all duration-300">
+                            <h3 class="text-xl font-semibold mb-4">What kind of support do you offer?</h3>
+                            <p class="text-gray-300">Our dedicated support team is available 24/7 through multiple channels including live chat, email, and phone. We also provide comprehensive documentation, video tutorials, and regular training sessions for our clients.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="py-24 bg-gradient-to-r from-purple-900 to-gray-900 relative overflow-hidden">
+                <div class="absolute inset-0 opacity-30">
+                    <img src="https://source.unsplash.com/random/1920x1080?abstract" alt="CTA Background" class="w-full h-full object-cover">
+                </div>
+                <div class="container mx-auto px-6 text-center relative z-10">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-8">Ready to Transform Your Digital Experience?</h2>
+                    <p class="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">Join thousands of satisfied users and take your business to the next level.</p>
+                    <a href="https://awstrikeroz.github.io/lorem-ipsum-dolor-2025-04-30-4xocv/" class="inline-block px-8 py-4 bg-purple-600 hover:bg-purple-700 rounded-full text-lg font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-lg">Start Your Free Trial</a>
+                </div>
+            </section>
+        </main>
+
+        <footer class="bg-gray-800 py-12">
+            <div class="container mx-auto px-6">
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                    <div>
+                        <h3 class="text-xl font-bold mb-4">Contact</h3>
+                        <p class="text-gray-400">Email: contact@landing.com</p>
+                        <p class="text-gray-400">Phone: (555) 123-4567</p>
+                        <p class="text-gray-400">Address: 123 Innovation Way</p>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold mb-4">Quick Links</h3>
+                        <ul class="space-y-2">
+                            <li><a href="#features" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Features</a></li>
+                            <li><a href="#benefits" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Benefits</a></li>
+                            <li><a href="#testimonials" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Testimonials</a></li>
+                            <li><a href="#about" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">About Us</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold mb-4">Legal</h3>
+                        <ul class="space-y-2">
+                            <li><a href="https://awstrikerOz.github.io/landing-2025-04-30-vvvc8/privacy.html" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Privacy Policy</a></li>
+                            <li><a href="https://awstrikerOz.github.io/landing-2025-04-30-vvvc8/terms.html" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Terms of Service</a></li>
+                            <li><a href="https://awstrikerOz.github.io/landing-2025-04-30-vvvc8/blog.html" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold mb-4">Follow Us</h3>
+                        <div class="flex space-x-4">
+                            <a href="#" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">
+                                <i class="fab fa-twitter text-2xl"></i>
+                            </a>
+                            <a href="#" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">
+                                <i class="fab fa-linkedin text-2xl"></i>
+                            </a>
+                            <a href="#" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">
+                                <i class="fab fa-github text-2xl"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-12 pt-8 border-t border-gray-700 text-center">
+                    <p class="text-gray-400">&copy; 2024 landing. All rights reserved.</p>
+                </div>
             </div>
-            <div class="mt-12 pt-8 border-t border-gray-700 text-center">
-                <p class="text-gray-400">&copy; 2024 landing. All rights reserved.</p>
-            </div>
-        </div>
-    </footer>
+        </footer>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+                const mobileMenu = document.querySelector('header nav .mobile-menu');
+                
+                if (mobileMenuButton && mobileMenu) {
+                    mobileMenuButton.addEventListener('click', () => {
+                        mobileMenu.classList.toggle('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.toggle('fa-bars');
+                            icon.classList.toggle('fa-times');
+                        }
+                    });
+
+                    const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                    mobileMenuLinks.forEach(link => {
+                        link.addEventListener('click', () => {
+                            mobileMenu.classList.add('hidden');
+                            const icon = mobileMenuButton.querySelector('i');
+                            if (icon) {
+                                icon.classList.remove('fa-times');
+                                icon.classList.add('fa-bars');
+                            }
+                        });
+                    });
+                }
+            });
+        </script>
+    </body>
 </body>
 </html>
